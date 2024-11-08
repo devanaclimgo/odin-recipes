@@ -1,2 +1,15 @@
 @import url('./main.css');
 @import url('./page.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #f4a259;
+  --secondary: #f4e285;
+  --terciary: #fa9500;
+  --text: #111111;
+  --bg: #ffdac6;
+}
