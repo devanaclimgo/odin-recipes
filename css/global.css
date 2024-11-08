@@ -21,6 +21,10 @@
   --main-font: 'Inconsolata';
 }
 
+body {
+  font-family: var(--main-font);
+}
+
 h1 {
   font-family: var(--title-font);
   letter-spacing: 4px;
