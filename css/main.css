@@ -13,3 +13,15 @@ h1 {
   text-align: center;
   font-size: 64px;
 }
+
+ul {
+  padding: 0.3rem;
+}
+
+li {
+  padding-bottom: 0.7rem;
+}
+
+a {
+  color: var(--text);
+}
