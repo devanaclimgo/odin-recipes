@@ -1,6 +1,11 @@
 @import url('./main.css');
 @import url('./page.css');
 
+@font-face {
+  font-family: 'OttineSlab';
+  src: url('../fonts/OttineSlab-Regular.ttf') format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +17,5 @@
   --terciary: #fa9500;
   --text: #111111;
   --bg: #ffdac6;
+  --title-font: 'OttineSlab'
 }
