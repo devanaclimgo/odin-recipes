@@ -15,7 +15,10 @@ h1 {
 }
 
 ul {
-  padding: 0.3rem;
+  padding: 0.5rem;
+  background-color: var(--block-bg);
+  border: 1px solid var(--primary);
+  border-radius: 12px;
 }
 
 li {
