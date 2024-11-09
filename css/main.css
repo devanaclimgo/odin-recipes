@@ -19,6 +19,7 @@ ul {
   background-color: var(--block-bg);
   border: 1px solid var(--primary);
   border-radius: 12px;
+  justify-content: center;
 }
 
 li {
@@ -26,31 +27,28 @@ li {
 }
 
 a {
-  color: var(--text);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 6px;
+  padding-right: 8px;
+  position: relative;
 }
 
 a::before {
   content: '';
   background-image: url('../img/chef-heart-icon.svg');
-  top: 100%;
-  left: 3px;
   width: 30px;
   height: 30px;
   position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-40%);
+  z-index: 1;
 }
 
 a:hover {
   cursor: pointer;
   color: var(--terciary);
-}
-
-a:hover::after {
-  content: '';
-  position: absolute;
-  width: auto;
-  background-color: var(--primary);
-  height: 1px;
-  top: 100%;
-  left: 0;
-  z-index: 1;
 }
