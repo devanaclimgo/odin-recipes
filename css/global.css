@@ -19,7 +19,8 @@
   --bg: #ffdac6;
   --block-bg: #ffe2cc;
   --title-font: 'OttineSlab';
-  --main-font: 'Inconsolata';
+  --main-font: 'Roboto';
+  --link-font: 'Inconsolata';
 }
 
 body {
@@ -41,4 +42,8 @@ li {
 a {
   text-decoration: none;
   color: var(--text);
+}
+
+ul a {
+  font-family: var(--link-font);
 }
