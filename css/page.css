@@ -50,3 +50,13 @@ h2 {
 .lista {
   padding: 0.8rem;
 }
+
+.ingredients h3 {
+  font-family: var(--title-font);
+  letter-spacing: 4px;
+  font-weight: 300;
+  color: var(--terciary);
+  margin-top: 0.7rem;
+  padding-bottom: 0.8rem;
+}
+
