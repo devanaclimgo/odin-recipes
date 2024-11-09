@@ -37,3 +37,16 @@ header h1 a {
   padding-bottom: 3px;
   font-weight: 500;
 }
+
+h2 {
+  font-family: var(--title-font);
+  letter-spacing: 4px;
+  font-weight: 300;
+  color: var(--terciary);
+  margin-top: 1.7rem;
+  padding-bottom: 0.8rem;
+}
+
+.lista {
+  padding: 0.8rem;
+}
