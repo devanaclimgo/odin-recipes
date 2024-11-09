@@ -19,3 +19,20 @@ header h1 a {
   font-size: 28px;
   gap: 5px;
 }
+
+.start {
+  display: flex;
+  gap: 20px;
+}
+
+.start div h1 {
+  font-size: 26px;
+  text-align: start;
+}
+
+.start div h3 {
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
