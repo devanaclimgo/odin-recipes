@@ -14,7 +14,7 @@ h1 {
   font-size: 64px;
 }
 
-.links {
+.links, .lista {
   padding: 0.5rem;
   background-color: var(--block-bg);
   border: 1px solid var(--primary);
