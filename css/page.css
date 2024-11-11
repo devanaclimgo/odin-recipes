@@ -60,3 +60,35 @@ h2 {
   padding-bottom: 0.8rem;
 }
 
+.note {
+  padding: 0.5rem;
+  background-color: var(--block-bg);
+  border: 1px solid var(--primary);
+  border-radius: 12px;
+  justify-content: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.note h3 {
+  font-family: var(--title-font);
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: var(--terciary);
+  padding-left: 35px;
+  padding-bottom: 8px;
+  padding-top: 5px;
+}
+
+.note h3::before {
+  content: "";
+  background-image: url("../img/chef-heart-icon.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 17px;
+  left: 6px;
+  transform: translateY(-40%);
+  z-index: 1;
+}
